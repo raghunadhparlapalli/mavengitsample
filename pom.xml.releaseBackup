@@ -13,7 +13,7 @@
   	<url>https://github.com/raghunadhparlapalli/mavengitsample</url>
     <developerConnection>scm:git:git@github.com:raghunadhparlapalli/mavengitsample.git</developerConnection>
     <connection>scm:git:git@github.com:raghunadhparlapalli/mavengitsample.git</connection>
- 	<tag>0.0.1</tag>
+ 	<tag>0.3</tag>
   </scm>
 
  <build>
@@ -89,18 +89,17 @@
 		<version>4.0.0.201505050340-m2</version>
 	</dependency>
   </dependencies>
-   <distributionManagement>
-    <repository>
-      <id>mavengitsample</id>
-      <name>mavengitsample</name>
-      <url>https://github.com/raghunadhparlapalli/mavengitsample/releases/</url>
-    </repository>
-   </distributionManagement>
+ <distributionManagement>
+  <repository>
+    <id>mavengitsample</id>
+    <url>http://localhost:7092/nexus/content/repositories/mavengitsample</url>
+  </repository>
+</distributionManagement>
  <repositories>
     <repository>
       <id>mavengitsample</id>
       <name>mavengitsample</name>
-      <url>https://github.com/raghunadhparlapalli/mavengitsample/releases/</url>
+      <url>http://localhost:7092/nexus/content/repositories/mavengitsample/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
