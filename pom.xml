@@ -3,7 +3,7 @@
 
   <groupId>com.maven.git.practice</groupId>
   <artifactId>mavengitsample</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>mavengitsample</name>
@@ -13,16 +13,9 @@
   	<url>https://github.com/raghunadhparlapalli/mavengitsample</url>
     <developerConnection>scm:git:git@github.com:raghunadhparlapalli/mavengitsample.git</developerConnection>
     <connection>scm:git:git@github.com:raghunadhparlapalli/mavengitsample.git</connection>
+ 	<tag>mavengitsample-0.0.2</tag>
   </scm>
-  	<developers>
-		<developer>
-			<email>raghunadh.parlapalli@gmail.com</email>
-			<name>Raghunadh Parlapalli</name>
-			<url>https://github.com/raghunadhparlapalli</url>
-			<id>kevinsawicki</id>
-		</developer>
-	</developers>
-  
+
  <build>
     <pluginManagement>
       <plugins>
@@ -101,9 +94,6 @@
       <id>mavengitsample</id>
       <name>mavengitsample</name>
       <url>https://github.com/raghunadhparlapalli/mavengitsample</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
       <releases>
         <enabled>true</enabled>
       </releases>
