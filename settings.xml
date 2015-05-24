@@ -3,8 +3,8 @@
   <servers>
     <server>
       <id>mavengitsample</id>
-      <username>raghunadh.parlapalli@gmail.com</username>
-      <password>03L41a0527</password>
+      <username>admin</username>
+      <password>admin123</password>
     </server>
   </servers>
 </settings>
