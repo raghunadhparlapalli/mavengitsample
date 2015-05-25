@@ -3,7 +3,7 @@
 
   <groupId>com.maven.git.practice</groupId>
   <artifactId>mavengitsample</artifactId>
-  <version>0.10-SNAPSHOT</version>
+  <version>0.11-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>mavengitsample</name>
@@ -13,7 +13,7 @@
   	<url>https://github.com/raghunadhparlapalli/mavengitsample</url>
     <developerConnection>scm:git:git@github.com:raghunadhparlapalli/mavengitsample.git</developerConnection>
     <connection>scm:git:git@github.com:raghunadhparlapalli/mavengitsample.git</connection>
- 	<tag>branch</tag>
+ 	<tag>branch-0.10-SNAPSHOT</tag>
   </scm>
 
  <build>
