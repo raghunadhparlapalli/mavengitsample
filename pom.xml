@@ -3,7 +3,7 @@
 
   <groupId>com.maven.git.practice</groupId>
   <artifactId>mavengitsample</artifactId>
-  <version>0.10-SNAPSHOT</version>
+  <version>0.12-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>mavengitsample</name>
@@ -67,6 +67,7 @@
         <version>2.4</version>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
+          <tagNameFormat>@{project.version}</tagNameFormat>
         </configuration>
       </plugin>
     </plugins>
